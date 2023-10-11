@@ -1,0 +1,104 @@
+body{
+    background-color:rgb(28, 28, 112);
+}
+#st{
+    color: white;
+    position: fixed;
+    left: 300px;
+
+}
+
+#form{
+    position:absolute;
+    left: 650px;
+    top: 100px;
+    border: 10px;
+    border-radius: 5px;
+    height: 550px;
+    width: 450px;
+    margin: 30px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+
+}
+#span{
+    position: relative;
+    margin: 60px;
+}
+#email{
+    width: 250px;
+    border-radius: 20px;
+    margin: 15px;
+    height: 35px;
+}
+#password{
+    width: 250px;
+    border-radius: 20px;
+    margin: 15px;
+    height: 35px;
+   
+
+}
+#btn1{
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 30px;
+    background-color:rgb(36, 36, 137);
+    color: white;
+    border-style: none;
+
+    
+}
+#btn2{
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 30px;
+    background-color:deepskyblue;
+    border-style: none;
+
+}
+#btn3{
+    border-radius: 20px;
+    border-style: none;
+    background-color: deeppink;
+    height: 30px;
+    width: 100px;
+}
+#nav{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: 150px;
+
+}
+#nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+}
+#text{
+    height: 200px;
+    width: 350px;
+    color: white;
+    position: fixed;
+    left: 170px;
+    top: 150px;
+}
+#text>h1{
+    font-size: 50px;
+}
+#signin{
+    color: rgb(46, 214, 158);
+    text-decoration: none;
+}
+#purchase{
+    background-color: deeppink;
+    
+}
+#check{
+   accent-color: rgb(61, 222, 190);
+}
